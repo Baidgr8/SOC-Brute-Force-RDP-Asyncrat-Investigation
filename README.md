@@ -236,7 +236,7 @@ Successful Login Event
 screenshots/eventid4624-login type 3.png
 
 ![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/b536a8cfebdd01b44a4e79678229074016e37e2c/assets/succesfull%20login%20on%20network.PNG)
-successful Remote Desktop login
+successful Remote Desktop login login typr 10
 ```
 
 ---
