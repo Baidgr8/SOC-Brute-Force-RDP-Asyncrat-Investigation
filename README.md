@@ -97,6 +97,7 @@ The investigation confirms a **complete attack lifecycle and full host compromis
 
 # Incident Overview
 
+
 On **19 February 2026**, the SIEM generated an alert indicating **abnormal authentication activity targeting a Windows Server**.
 
 The alert was triggered after detecting **multiple failed login attempts against the Administrator account** within a short timeframe.
@@ -107,12 +108,6 @@ The investigation aimed to determine whether the activity resulted in **successf
 **Final Classification:** Confirmed Credential Compromise with Active Command & Control Communication
 
 ---
-
-📸 ** – SIEM Authentication Alert**
-![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/2fbcbd0496f4a8b8c09273cab6061f61a1434130/assets/event%20log%20showing%20account%20name%20Administration.PNG)
-```
-
-```
 
 # Executive Summary
 
@@ -139,21 +134,32 @@ Following confirmation of unauthorized access, the investigation expanded to ana
 
 The investigation confirmed the following attack progression:
 
-```
-Brute Force Attack
-        ↓
-Credential Compromise
-        ↓
-Remote Desktop Access
-        ↓
-Persistence via Backdoor Account
-        ↓
-Privilege Escalation
-        ↓
-Malware Execution
-        ↓
-Command & Control Communication
-```
+`Brute Force Attack
+`     
+            ↓
+       
+`Credential Compromise
+ `    
+            ↓
+       
+`Remote Desktop Access
+  `    
+            ↓
+       
+`Persistence via Backdoor Account
+   `    
+            ↓
+        
+`Privilege Escalation
+`        
+            ↓
+        
+`Malware Execution
+`       
+           ↓
+        
+`Command & Control Communication
+`
 
 ---
 
@@ -202,7 +208,7 @@ Command & Control Communication
 
 # Technical Investigation
 
-## Authentication Failure Analysis
+### Authentication Failure Analysis
 
 Windows Security logs revealed **14 failed login attempts within 4 seconds** targeting the **Administrator account**.
 
@@ -210,11 +216,8 @@ Event **ID 4625** showed the failure **sub-status code `0xC000006A`**, indicatin
 
 This pattern is consistent with **automated brute-force activity**.
 
-📸 **Screenshot – Event ID 4625 Brute Force Attempts**
-
-```
-screenshots/eventid4625-bruteforce.png
-```
+ Event ID 4625 Brute Force Attempts
+![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/2fbcbd0496f4a8b8c09273cab6061f61a1434130/assets/event%20log%20showing%20account%20name%20Administration.PNG)
 
 ---
 
