@@ -245,19 +245,14 @@ Successful Remote Desktop login login type 10
 
 Event **ID 4720** confirmed the creation of a new account:
 
-```
-svc_sysrestore
-```
+![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/f77f704c1bdee1bb4d98b68185a7e1e3a1a5b534/assets/account%20creation%20ID%204789.PNG)
+the account named svc_sysrestore was created
+
 
 This account was created under the compromised **Administrator session**.
 
 The naming convention suggests an attempt to **blend with legitimate system service accounts**.
 
-📸 **Screenshot – Account Creation Log**
-
-```
-screenshots/eventid4720-accountcreation.png
-```
 
 ---
 
@@ -271,7 +266,7 @@ Event **ID 4732** logs show the new account was rapidly added to multiple privil
 
 This allowed the attacker to **maintain privileged access and persistent RDP connectivity**.
 
-📸 **Screenshot – Privileged Group Membership**
+**Privileged Group Membership**
 
 ```
 screenshots/eventid4732-groupmembership.png
