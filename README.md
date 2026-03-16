@@ -268,10 +268,10 @@ This allowed the attacker to **maintain privileged access and persistent RDP con
 
 **Privileged Group Membership**
 
-![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/5af8a4a9df101c45fc1ad84bfb1fc2901dee1585/assets/member%20added%204732.PNG
-screenshots/eventid4732-groupmembership.png)
+![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/5af8a4a9df101c45fc1ad84bfb1fc2901dee1585/assets/member%20added%204732.PNG)
+screenshots event id 4732 groupmembership.png
 
-![Process Tree Analysis]
+
 ---
 
 ## Malware Execution
@@ -282,6 +282,9 @@ Sysmon telemetry confirmed execution of a malicious file:
 File Name: ckjg.exe
 Path: C:\Users\sarah.miller\Downloads\ckjg.exe
 SHA256: 08037DE4A729634FA818DDF03DDD27C28C89F42158AF5EDE71CF0AE2D78FA198
+Detection Score: 60/72 (VirusTotal)
+Malware Family: AsyncRAT
+
 ```
 
 Threat intelligence analysis using **VirusTotal** detected the file as **AsyncRAT malware** with a **60/72 detection score**.
