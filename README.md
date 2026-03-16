@@ -233,7 +233,7 @@ The **IP address correlation and timing** confirm successful credential compromi
 
 Successful Login Event
 ![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/b536a8cfebdd01b44a4e79678229074016e37e2c/assets/succesfull%20login%20on%20network.PNG)
-screenshots event id 4624-login type 3.png
+screenshots event id 4624-login type 3
 
 ![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/195685772d38d502813281b8bc3e1d7b11024a6b/assets/Change%20to%20RDP%20succesful%20login.PNG)
 Successful Remote Desktop login login type 10
@@ -269,7 +269,7 @@ This allowed the attacker to **maintain privileged access and persistent RDP con
 **Privileged Group Membership**
 
 ![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/5af8a4a9df101c45fc1ad84bfb1fc2901dee1585/assets/member%20added%204732.PNG)
-screenshots event id 4732 groupmembership.png
+screenshots event id 4732 groupmembership
 
 
 ---
@@ -292,7 +292,7 @@ Threat intelligence analysis using **VirusTotal** detected the file as **AsyncRA
 **VirusTotal Detection Results**
 ![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/5f48f02ecf947161c02386cc9fca9632b3c59da1/assets/virus%20total%20scan.PNG)
 
-screenshots of virustotal-analysis.png
+screenshots of virustotal-analysis
 
 
 ---
@@ -309,8 +309,8 @@ Sysmon logs revealed outbound communication to malicious infrastructure.
 
 The use of **non-standard TCP port 7777** is commonly associated with **Remote Access Trojan command channels**.
 
-📸 **Screenshot – Sysmon DNS & Network Connection Logs**
-
+📸 **Sysmon DNS & Network Connection Logs**
+![Process Tree Analysis]
 ```
 screenshots/sysmon-c2-traffic.png
 ```
