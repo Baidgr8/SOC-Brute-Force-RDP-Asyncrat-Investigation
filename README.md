@@ -108,13 +108,11 @@ The investigation aimed to determine whether the activity resulted in **successf
 
 ---
 
-📸 **Screenshot – SIEM Authentication Alert**
-
-```
-screenshots/siem-authentication-alert.png
+📸 ** – SIEM Authentication Alert**
+![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/2fbcbd0496f4a8b8c09273cab6061f61a1434130/assets/event%20log%20showing%20account%20name%20Administration.PNG)
 ```
 
----
+```
 
 # Executive Summary
 
