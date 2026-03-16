@@ -233,11 +233,11 @@ The **IP address correlation and timing** confirm successful credential compromi
 
 Successful Login Event
 ![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/b536a8cfebdd01b44a4e79678229074016e37e2c/assets/succesfull%20login%20on%20network.PNG)
-screenshots/eventid4624-login type 3.png
+screenshots event id 4624-login type 3.png
 
-![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/b536a8cfebdd01b44a4e79678229074016e37e2c/assets/succesfull%20login%20on%20network.PNG)
-successful Remote Desktop login login typr 10
-```
+![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/195685772d38d502813281b8bc3e1d7b11024a6b/assets/Change%20to%20RDP%20succesful%20login.PNG)
+Successful Remote Desktop login login type 10
+
 
 ---
 
