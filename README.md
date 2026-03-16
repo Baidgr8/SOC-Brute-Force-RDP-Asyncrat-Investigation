@@ -268,10 +268,10 @@ This allowed the attacker to **maintain privileged access and persistent RDP con
 
 **Privileged Group Membership**
 
-```
-screenshots/eventid4732-groupmembership.png
-```
+![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/5af8a4a9df101c45fc1ad84bfb1fc2901dee1585/assets/member%20added%204732.PNG
+screenshots/eventid4732-groupmembership.png)
 
+![Process Tree Analysis]
 ---
 
 ## Malware Execution
