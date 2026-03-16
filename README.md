@@ -232,9 +232,11 @@ Within **11 seconds**, a second **Event ID 4624 (Logon Type 10)** confirmed a su
 The **IP address correlation and timing** confirm successful credential compromise.
 
 Successful Login Event
-![Process Tree Analysis]
-```
-screenshots/eventid4624-login.png
+![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/b536a8cfebdd01b44a4e79678229074016e37e2c/assets/succesfull%20login%20on%20network.PNG)
+screenshots/eventid4624-login type 3.png
+
+![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/b536a8cfebdd01b44a4e79678229074016e37e2c/assets/succesfull%20login%20on%20network.PNG)
+successful Remote Desktop login
 ```
 
 ---
