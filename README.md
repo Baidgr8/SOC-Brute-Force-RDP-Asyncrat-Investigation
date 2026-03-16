@@ -309,11 +309,9 @@ Sysmon logs revealed outbound communication to malicious infrastructure.
 
 The use of **non-standard TCP port 7777** is commonly associated with **Remote Access Trojan command channels**.
 
-📸 **Sysmon DNS & Network Connection Logs**
-![Process Tree Analysis]
-```
+**Sysmon DNS & Network Connection Logs**
+![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/1f76180503d26fbdd0033d6fb5b1963cad1f3c3f/assets/sysmon%20id%201.PNG)
 screenshots/sysmon-c2-traffic.png
-```
 
 ---
 
@@ -332,7 +330,7 @@ Security monitoring tools could detect this attack using:
 
 # Containment & Remediation
 
-## Immediate Actions
+### Immediate Actions
 
 - Disable compromised **Administrator account**
 - Remove **svc_sysrestore persistence account**
@@ -341,7 +339,7 @@ Security monitoring tools could detect this attack using:
 
 ---
 
-## Medium-Term Improvements
+### Medium-Term Improvements
 
 - Implement **account lockout policies**
 - Enforce **multi-factor authentication (MFA)**
@@ -349,7 +347,7 @@ Security monitoring tools could detect this attack using:
 
 ---
 
-## Long-Term Security Improvements
+### Long-Term Security Improvements
 
 - Deploy centralized **SIEM monitoring**
 - Implement **Privileged Access Management (PAM)**
