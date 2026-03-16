@@ -134,32 +134,34 @@ Following confirmation of unauthorized access, the investigation expanded to ana
 
 The investigation confirmed the following attack progression:
 
-`Brute Force Attack
-`     
-            ↓
-       
-`Credential Compromise
- `    
-            ↓
-       
-`Remote Desktop Access
-  `    
-            ↓
-       
-`Persistence via Backdoor Account
-   `    
-            ↓
-        
-`Privilege Escalation
-`        
-            ↓
-        
-`Malware Execution
-`       
-           ↓
-        
-`Command & Control Communication
-`
+<div align="center">
+
+`Brute Force Attack`
+<br>
+↓
+<br>
+`Credential Compromise`
+<br>
+↓
+<br>
+`Remote Desktop Access`
+<br>
+↓
+<br>
+`Persistence via Backdoor Account`
+<br>
+↓
+<br>
+`Privilege Escalation`
+<br>
+↓
+<br>
+`Malware Execution`
+<br>
+↓
+<br>
+`Command & Control Communication`
+</div>
 
 ---
 
@@ -229,8 +231,8 @@ Within **11 seconds**, a second **Event ID 4624 (Logon Type 10)** confirmed a su
 
 The **IP address correlation and timing** confirm successful credential compromise.
 
-📸 **Screenshot – Successful Login Event**
-
+Successful Login Event
+![Process Tree Analysis]
 ```
 screenshots/eventid4624-login.png
 ```
