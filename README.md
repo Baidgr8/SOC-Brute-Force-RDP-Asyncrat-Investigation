@@ -289,11 +289,11 @@ Malware Family: AsyncRAT
 
 Threat intelligence analysis using **VirusTotal** detected the file as **AsyncRAT malware** with a **60/72 detection score**.
 
-📸 **Screenshot – VirusTotal Detection Results**
+**VirusTotal Detection Results**
+![Process Tree Analysis](https://github.com/Baidgr8/SOC-Brute-Force-RDP-Asyncrat-Investigation/blob/5f48f02ecf947161c02386cc9fca9632b3c59da1/assets/virus%20total%20scan.PNG)
 
-```
-screenshots/virustotal-analysis.png
-```
+screenshots of virustotal-analysis.png
+
 
 ---
 
