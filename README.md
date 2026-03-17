@@ -169,13 +169,13 @@ The investigation confirmed the following attack progression:
 
 | Tactic | Technique | ID |
 |------|------|------|
-| Credential Access | Brute Force | T1110 |
-| Initial Access | Valid Accounts | T1078 |
-| Lateral Movement | Remote Services (RDP) | T1021.001 |
-| Persistence | Create Account | T1136 |
-| Privilege Escalation | Account Manipulation | T1098 |
-| Execution | Command Execution | T1059 |
-| Command & Control | Application Layer Protocol | T1071 |
+| Credential Access | Brute Force |<a href="https://attack.mitre.org/techniques/T1110/"> T1110 </a> |
+| Initial Access | Valid Accounts |<a href="https://attack.mitre.org/techniques/T1078/"> T1078 </a> |
+| Lateral Movement | Remote Services (RDP) |<a href="https://attack.mitre.org/techniques/T1021/001/"> T1021.001 </a> |
+| Persistence | Create Account |<a href="https://attack.mitre.org/techniques/T1136/"> T1136 </a>|
+| Privilege Escalation | Account Manipulation | <a href="https://attack.mitre.org/techniques/T1098/">T1098</a> |
+| Execution | Command Execution | <a href="https://attack.mitre.org/techniques/T1059/">T1059</a> |
+| Command & Control | Application Layer Protocol | <a href="https://attack.mitre.org/techniques/T1071/">T1071</a> |
 
 ---
 
